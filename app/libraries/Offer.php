@@ -40,7 +40,7 @@ class Offer
         $offer_limit = $this->ci->config->item('offer_limit');
 
         if ($user_offers < $offer_limit) {
-            $price = $this->countPrice($dogeprice, $dogeamount);
+            $price = (double) $this->countPrice($dogeprice, $dogeamount);
             if (!($price < 0.01)) {
                 $this->ci->offers_model->add($user_id, $type, $description, $dogeprice, $dogeamount, $price);
                 return NULL;
@@ -90,7 +90,7 @@ class Offer
     {
         $offers = $this->ci->offers_model->getUserOffers($user_id, $status);
         foreach ($offers->result() as $row) {
-            $row->offer_id = $this->ci->code->toBase($row->id); // code id
+            $row->id = $this->ci->code->toBase($row->id); // code id
         }
         return $offers;
     }

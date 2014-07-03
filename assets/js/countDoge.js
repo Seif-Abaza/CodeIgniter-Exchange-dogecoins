@@ -75,28 +75,6 @@ function calculateCrypto()
     document.getElementById("wartosc_krypto").innerHTML = pom.toString().replace(".", ",") + " zł";
 }
 
-
-function calculateDoge()
-{
-    var doge_am = parseFloat(parseFloat(document.getElementById("dogeamount").value.replace(",", ".")).toFixed(8));
-    if (isNaN(doge_am))
-        doge_am = 0;
-
-    var temp1 = doge_am * doge_btc * btc_pln;
-    var pom = formatFloat(temp1, 3, 9, ' ').toString().replace(".", ",");
-
-    document.getElementById("wartosc_doge").innerHTML = "| wartość: " + pom + " zł";
-}
-function calculateDoge2()
-{
-    var doge_am = parseFloat(parseFloat(document.getElementById("dogeamount2").value.replace(",", ".")).toFixed(8));
-    if (isNaN(doge_am))
-        doge_am = 0;
-
-    var temp1 = doge_am * doge_btc * btc_pln;
-    document.getElementById("wartosc_doge2").innerHTML = "| wartość: " + temp1.toFixed(2).toString().replace(".", ",") + " zł";
-}
-
 function calculateBuy(exFee, mPrecision, bPrecision, ePrecision)
 {
     var buyAmount = parseFloat(parseFloat(document.getElementById("dogeamount").value.replace(",", ".")).toFixed(mPrecision));

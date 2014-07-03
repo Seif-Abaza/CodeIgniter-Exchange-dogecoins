@@ -10,7 +10,8 @@
             <?php } ?>
             <div class="alert alert-dismissable alert-warning">
                 <button type="button" class="close" data-dismiss="alert">×</button>
-                <h4 style="margin-bottom: 0">Demo</h4>
+                <h4>Demo</h4> 
+                <p>Kliknij Zaloguj (w prawym górnym rogu) aby zobaczyć ukrytą funkcjonalność przed niezalogowanymi użytkownikami.</p>
             </div>
         </div>
     </div>
@@ -119,7 +120,7 @@
                                     <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= $row->login; ?>"><a href="http://wykop.pl/ludzie/<?= $row->login; ?>/" target="_blank" class="alert-link"><?= substr($row->login, 0, 11); ?></a></td>
                                     <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="1 kÐ = <?= number_format($row->price_doge * 1000, 5, ',', ' '); ?> zł"><?= number_format($row->price_doge, 8, '.', ''); ?></td>
                                     <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= number_format($row->amount, 2, ',', ' '); ?> Ð"><?= number_format($row->amount, 8, '.', ''); ?></td>
-                                    <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= number_format($row->price_zl, 2, ',', ' '); ?> zł"><?= number_format($row->price_zl, 2, '.', ''); ?></td>
+                                    <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= number_format($row->price, 2, ',', ' '); ?> zł"><?= number_format($row->price, 2, '.', ''); ?></td>
                                     <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= $row->method; ?>"><?= substr($row->method, 0, 23) . $rozwinMetode; ?></td>
                                     <td><?= $row->datatime_create; ?></td>
                                 </tr>
@@ -235,7 +236,7 @@
                                     <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= $row->login; ?>"><a href="http://wykop.pl/ludzie/<?= $row->login; ?>/" target="_blank" class="alert-link"><?= substr($row->login, 0, 11); ?></a></td>
                                     <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="1 kÐ = <?= number_format($row->price_doge * 1000, 5, ',', ' '); ?> zł"><?= number_format($row->price_doge, 8, '.', ''); ?></td>
                                     <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= number_format($row->amount, 2, ',', ' '); ?> Ð"><?= number_format($row->amount, 8, '.', ''); ?></td>
-                                    <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= number_format($row->price_zl, 2, ',', ' '); ?> zł"><?= number_format($row->price_zl, 2, '.', ''); ?></td>
+                                    <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= number_format($row->price, 2, ',', ' '); ?> zł"><?= number_format($row->price, 2, '.', ''); ?></td>
                                     <td data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?= $row->method; ?>"><?= substr($row->method, 0, 23) . $rozwinMetode; ?></td>
                                     <td><?= $row->datatime_create; ?></td>
                                 </tr>

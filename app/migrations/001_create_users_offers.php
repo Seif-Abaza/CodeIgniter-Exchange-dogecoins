@@ -85,16 +85,13 @@ class Migration_Create_users_offers extends CI_Migration
                 'default' => '',
             ),
             'price_doge' => array(
-                'type' => 'DECIMAL',
-                'constraint' => '10,8',
+                'type' => 'DOUBLE',
             ),
             'amount' => array(
-                'type' => 'DECIMAL',
-                'constraint' => '10,8',
+                'type' => 'DOUBLE',
             ),
             'price' => array(
-                'type' => 'DECIMAL',
-                'constraint' => '10,2',
+                'type' => 'DOUBLE',
             ),
             'status' => array(
                 'type' => 'TINYINT',
