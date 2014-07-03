@@ -1,0 +1,61 @@
+
+
+/* OFERTY */
+#fancyTop {
+    background-color: #2E3338;
+    border-bottom: 1px solid #1C1E22;
+}
+.tabZFormularzami {
+    background-color: #3E444C;
+    border-bottom: 1px solid #1C1E22;
+    border-left: 1px solid #1C1E22;
+    border-right: 1px solid #1C1E22;
+}
+.teksty p {
+    color: #8D9095;
+}
+
+
+/* FOOOTER */
+footer {
+    color: #8D9095;
+}
+footer #rek-promo {
+    background-color: #2E3338;
+}
+footer #rek-promo a {
+    color: #E4E4E4;
+}
+footer #rek-promo a:hover {
+    background-color: #2FA4E7;
+    color: #FFF;
+}
+#footer1 {
+    background-color: #1C1E22;
+    border-top: 1px solid #333;
+    padding: 50px 0;
+}
+#footer1 h6 {
+    color: #CCC;
+}
+#footer1 a{
+    color: #CCC;
+}
+#footer1 a:hover {
+    color: #2FA4E7;
+}
+#footer2 {
+    background-color: #1C1E22;
+    border-top: 1px solid #333;
+    color: #999;
+}
+#footer2 li {
+    border-right: 1px solid #2E3338;
+}
+#footer2 li a{
+    color: #CCC;
+}
+#footer2 li a:hover {
+    color: #2FA4E7;
+}
+

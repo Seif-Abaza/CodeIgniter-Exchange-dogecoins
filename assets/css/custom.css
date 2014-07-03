@@ -1,0 +1,338 @@
+body {
+    font-family: 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+    padding-top: 50px
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+}
+h2 {
+    margin-bottom: 15px;
+}
+hr.big {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* TOP */
+
+.nav>li>a>img {
+    padding: 0 0 3px 0;
+}
+.kursDoge {
+
+}
+.marginTopTable {
+    margin-top: 26px;
+}
+.forgotLnk
+{
+    margin-top: 10px;
+    display: block;
+}
+.or-box
+{
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 20px;
+    margin-top:20px;
+}
+.dor{
+    color: #666666;
+    background-color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 40px;
+    left: 84px;
+}
+
+
+
+/* OFERTY */
+#fancyTop {
+    margin-bottom: 20px;
+}
+.fancyWrap h1, .fancyWrap h2{
+    padding: 20px 0 30px 0;
+}
+.alert>p+p {
+    margin-top: 10px;
+}
+.tableHeader {
+    margin-bottom: 40px;
+}
+#informacjeOgolne {
+    margin-top: 87px;
+}
+#informacjeOgolne .alert h4:first-child {
+    margin-top: 0;
+}
+#informacjeOgolne .alert h4 {
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+#informacjeOgolne .alert p {
+    line-height: 1.7;
+}
+#nowaOferta, #nowaOferta2 {
+}
+#nowaOferta {
+    margin-top: 107px;
+}
+#nowaOferta2 {
+    margin-top: 87px;
+}
+.tabZFormularzami {
+}
+.tabZFormularzami .tab-pane {
+    padding: 20px 20px 7px 20px;
+}
+.tabZFormularzami #info.tab-pane {
+    padding: 10px 20px 8px 20px;
+}
+#bidTable th, #askTable th{
+    padding: 7px 8px;
+}
+#bidTable td, #askTable td{
+    font-family: arial;
+    text-align: right;
+    width: 200px;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+#bidTable td:first-child, #askTable td:first-child{
+    text-align: left;
+}
+
+.teksty p {
+    line-height: 1.6;
+}
+
+.alignImgLeft {
+    float: left;
+    margin: 5px 30px 10px 0;
+}
+
+
+
+/* FOOOTER */
+footer {
+    margin-top: 100px;
+    font-size: 14px;
+}
+footer #rek-promo {
+    padding: 0;
+    text-align: center;
+}
+footer #rek-promo a {
+    padding: 35px 10%;
+    font-size: 20px;
+    line-height: 46px;
+    display: block;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+footer #rek-promo a:hover {
+}
+#footer1 {
+    padding: 50px 0;
+}
+#footer1 h6 {
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-transform: none;
+    width: 270px;
+    word-spacing: 0px;
+}
+#footer1 a{
+}
+#footer1 a:hover {
+    text-decoration: none;
+}
+#footer2 {
+    padding: 15px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    font-size: 12px;
+}
+#footer2 li:first-child {
+    border-right: 0;
+}
+#footer2 li {
+}
+#footer2 li a{
+    text-transform: uppercase;
+    display: inline;
+    padding-right: 20px;
+    padding: 2px 0;
+    margin: 0 10px;
+    display: block;
+}
+#footer2 li a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/* inne strony */
+
+#offerTable td:nth-child(2), #offerTable td:nth-child(3), #offerTable td:nth-child(4) {
+    text-align: right;
+    width: 180px;
+}
+
+.pull-right-40 {
+    margin-left: 40px;
+}
+
+
+
+
+
+/* traininng digits */ 
+#game {
+    padding: 20px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+#wrapper {
+    height: 400px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 100px 20px;
+}
+#wrapper #flip-answere {
+    display: none;
+}
+#flip-counter {
+    margin: 0 auto;
+    width: 15%;
+    display: none;
+}
+#flip-answere {
+    margin: 0 auto;
+    width: 43%;
+    min-width: 160px;
+}
+#start-counter {
+    margin: 0 auto;
+    width: 29%;
+    text-align: center;
+}
+#start {
+    width: 100px;
+}
+#good-answere, #bad-answere {
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 7px;
+    display: none;
+}
+.znaczekX2 {
+    transform:scale(2.0,2.0);
+    -ms-transform:scale(2.0,2.0); /* IE 9 */
+    -moz-transform:scale(2.0,2.0); /* Firefox */
+    -webkit-transform:scale(2.0,2.0); /* Safari and Chrome */
+    -o-transform:scale(2.0,2.0); /* Opera */
+}
+.kolorWynik {
+    background-color: #f5f5f5;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+#theend {
+    text-align: center;
+    display: none;
+    text-transform: uppercase;
+}
+#theend h1, #theend h4 {
+    text-shadow: none;
+}
+#theend h1 {
+    font-size: 100px;
+}
+#czasDoKonca {
+    padding: 20px;
+    border-right: 2px solid #FFF;
+}
+#wynikGry .row {
+    margin-bottom: 2px;
+}
+#wynikGry i {
+    padding-left: 20px;
+}
+#wynikGry ul {
+    list-style: none;
+    display:inline;
+    padding-left: 25px;
+}
+#wynikGry ul li {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+}
+#najlepszyWynik {
+    padding: 20px 20px 20px 30px;
+}
+#obecnyStatystykiL, #obecnyStatystykiR {
+    text-transform: uppercase;
+    line-height: 23px;
+    padding: 10px 5px;
+}
+#obecnyStatystykiL {
+    text-align: right;
+}
+#obecnyStatystykiR {
+    text-align: left;
+}
+#obecnyWynik {
+    text-align: center;
+    padding: 20px 20px 45px 20px;
+}
+#obecnyWynik h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0 0 0;
+}
+#obecnyWynik small {
+    margin-bottom: 20px;
+}
+#info {
+    border-top: 1px solid #e1e1db;
+    border-bottom: 1px solid #e1e1db;
+    padding: 15px 20px 10px 20px;
+    color: #7a8288;
+}
+#info h4 {
+    text-shadow: none;
+    margin-top: 5px;
+}
+#info2 {
+    margin-top: 50px;
+}
+pytaniIodpowiedzi {
+    padding: 15px 20px;
+    color: #7a8288;
+}

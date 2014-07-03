@@ -1,0 +1,74 @@
+
+
+
+/* OFERTY */
+#fancyTop {
+    background-color: #F7F7F8;
+    border-bottom: 1px solid rgba(218, 222, 225, 0.85);
+}
+.tabZFormularzami {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-left: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+}
+.teksty p {
+    
+}
+
+/* FOOOTER */
+footer {
+    background-color: #F8F8F8;
+    color: #8D9095;
+}
+footer #rek-promo {
+    background-color: #F7F7F8;
+    border-top: 1px solid rgba(218, 222, 225, 0.85);
+}
+footer #rek-promo a {
+    color: #2FA4E7;
+}
+footer #rek-promo a:hover {
+    background-color: #2FA4E7;
+    color: #FFF;
+}
+#footer1 {
+    background-color: #F7F7F8;
+    border-top: 1px solid rgba(218, 222, 225, 0.85);
+}
+#footer1 h6 {
+    color: #373A41;
+}
+#footer1 a{
+    color: #686868;
+}
+#footer1 a:hover {
+    color: #2FA4E7;
+}
+#footer2 {
+    background-color: #F7F7F8;
+    border-top: 1px solid rgba(218, 222, 225, 0.85);
+    color: #999;
+}
+#footer2 li {
+    border-right: 1px solid rgba(218, 222, 225, 0.85);
+}
+#footer2 li a{
+    color: #8D9095;
+}
+#footer2 li a:hover {
+    color: #2FA4E7;
+}
+
+
+
+/* dogecoin informacje */
+
+.vert-text h1, .vert-text h2, .vert-text h3, .vert-text h4 {
+    color: #fff;
+}
+.vert-text p {
+    color: #fff;
+}
+.services h2, .services h4 {
+    color: #fff;
+}

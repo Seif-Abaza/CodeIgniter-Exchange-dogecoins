@@ -1,0 +1,13 @@
+# LOCALHOST 
+# katalog /pamiec/
+RewriteEngine on
+RewriteBase /pamiec
+RewriteCond $1 !^(index\.php|images|javascript|stylesheets|uploads|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/xml text/css text/javascript application/javascript
+</ifmodule>
+# END GZIP
