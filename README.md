@@ -3,7 +3,7 @@ It is a application based on CodeIgniter framework. App allow users to add their
 
 ## Demo
 
-[demo](http://demo.egod.pl/)
+[demo](http://www.arek.ovh/demo/)
 
 ## Installation
 
